@@ -24,16 +24,16 @@ const fetchFeaturedDishes = () => {
 };
 
 const foodImages = {
-    Pizza: "/pizza.jpg",
-    Burger: "/burger.jpg",
-    Pasta: "/pasta.jpg",
-    Sushi: "/sushi.jpg",
-    Salad: "/salad.jpg",
-    Tacos: "/tacos.jpg",
-    Sandwich: "/sandwich.jpg",
-    Steak: "/steak.jpg",
-    Ramen: "/ramen.jpg",
-    IceCream: "/icecream.jpg",
+    Pizza: process.env.PUBLIC_URL + "/pizza.jpg",
+    Burger: process.env.PUBLIC_URL + "/burger.jpg",
+    Pasta: process.env.PUBLIC_URL + "/pasta.jpg",
+    Sushi: process.env.PUBLIC_URL + "/sushi.jpg",
+    Salad: process.env.PUBLIC_URL + "/salad.jpg",
+    Tacos: process.env.PUBLIC_URL + "/tacos.jpg",
+    Sandwich: process.env.PUBLIC_URL + "/sandwich.jpg",
+    Steak: process.env.PUBLIC_URL + "/steak.jpg",
+    Ramen: process.env.PUBLIC_URL + "/ramen.jpg",
+    IceCream: process.env.PUBLIC_URL + "/icecream.jpg",
 };
 
 function HomePage() {
