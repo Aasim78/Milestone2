@@ -6,7 +6,7 @@ function AboutPage() {
         <main className="about-page">
             <h2>About Us</h2>
             <p className="mission">
-                At [Your Brand], our mission is to serve the finest, freshest, and most delicious meals while fostering a welcoming community for food lovers.
+                At Food Delight, our mission is to serve the finest, freshest, and most delicious meals while fostering a welcoming community for food lovers.
             </p>
 
             <section className="timeline">
