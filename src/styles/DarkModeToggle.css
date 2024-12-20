@@ -1,0 +1,39 @@
+/* Toggle button styling */
+.dark-mode-toggle {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #444;
+    color: #ddd;
+}
+
+/* Dark mode styles for the body */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode .homepage header {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .slider {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+body.dark-mode .food-image {
+    border-color: #333;
+}
+
+body.dark-mode .footer {
+    background-color: #1e1e1e;
+}

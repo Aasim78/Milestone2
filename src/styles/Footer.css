@@ -1,0 +1,26 @@
+/* Footer styles */
+.footer {
+    background-color: #333; /* Dark background for contrast */
+    color: white; /* White text for readability */
+    text-align: center;
+    padding: 10px 20px;
+    position: relative; /* Ensure it works with the flexbox layout */
+    bottom: 0;
+    width: 100%; /* Stretch footer across the page */
+    font-size: 14px;
+}
+
+.footer .social-media {
+    margin-top: 10px;
+}
+
+.footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer .social-media a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
