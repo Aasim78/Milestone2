@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=./index.html">
+    <title>Redirecting...</title>
+    <meta charset="UTF-8" />
+    <script type="text/javascript">
+      // Redirect to index.html, preserving the current path
+      var pathname = window.location.pathname.replace('/Milestone2', '');
+      window.location.replace('/Milestone2/index.html' + '#' + pathname);
+    </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
