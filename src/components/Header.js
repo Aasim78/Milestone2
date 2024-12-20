@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Header.css'; // Import the CSS for Header
-import { useNavigate } from 'react-router-dom'; // For navigation
+import { Link, useNavigate } from 'react-router-dom'; // Use Link for navigation
 
 function Header() {
     const navigate = useNavigate(); // Hook for navigation
@@ -9,10 +9,10 @@ function Header() {
         <header className="header">
             <div className="logo">Foodie Delight</div>
             <nav className="nav">
-                <a href="/">Home</a>
-                <a href="/menu">Menu</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
+                <Link to="/">Home</Link>
+                <Link to="/menu">Menu</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
                 <button
                     className="cart-button"
                     onClick={() => navigate('/cart')} // Redirect to cart page
