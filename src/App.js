@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import MenuPage from './components/MenuPage';
-
 import ContactPage from './components/ContactPage';
 import AboutPage from './components/AboutPage';
 
@@ -15,7 +14,7 @@ import './styles/App.css';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/Milestone2">
             <div className="App">
                 <Header />
                 <DarkModeToggle />
