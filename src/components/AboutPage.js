@@ -30,9 +30,10 @@ function AboutPage() {
             <section className="gallery">
                 <h3>Our Culinary Creations</h3>
                 <div className="image-carousel">
-                    <img src="/dish1.jpg" alt="Delicious Dish 1" />
-                    <img src="/dish2.jpg" alt="Delicious Dish 2" />
-                    <img src="/dish3.jpg" alt="Delicious Dish 3" />
+                <img src={`${process.env.PUBLIC_URL}/dish1.jpg`} alt="Delicious Dish 1" />
+                <img src={`${process.env.PUBLIC_URL}/dish2.jpg`} alt="Delicious Dish 2" />
+                <img src={`${process.env.PUBLIC_URL}/dish3.jpg`} alt="Delicious Dish 3" />
+
                 </div>
             </section>
 
